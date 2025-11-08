@@ -8,10 +8,10 @@ const {
 } = require("@solana/spl-governance");
 const { Connection, PublicKey } = require("@solana/web3.js");
 
-// --- 1. Configuration ---
+// --- 1. Configuraßtion ---
 
 // RPC URL
-const HELIUS_RPC_URL = process.env.RPC_URL;
+const HELIUS_RPC_URL = process.env.HELIUS_RPC_URL;
 const SOLANA_MAINNET_RPC_URL = "https://api.mainnet-beta.solana.com";
 const RPC_URL = HELIUS_RPC_URL;
 
