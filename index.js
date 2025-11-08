@@ -1,9 +1,7 @@
 require("dotenv").config();
 const {
-  getRealm,
   getAllGovernances,
   getProposalsByGovernance,
-  getProposal,
   getRealms,
 } = require("@solana/spl-governance");
 const { Connection, PublicKey } = require("@solana/web3.js");
